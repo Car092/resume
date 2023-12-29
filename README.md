@@ -2,7 +2,7 @@
 
 ## What This Is
 
-This is the repository housing my personal resume, which I host here: tmpname.dev/resume
+This is the repository housing my personal resume, which I host here: https://tmpname.dev/resume
 
 ## Source
 Based on https://github.com/Thomashighbaugh/resume

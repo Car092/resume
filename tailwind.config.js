@@ -2,10 +2,10 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 const plugin = require("tailwindcss/plugin");
 
 module.exports = {
-  content:[
-"**/*.html",
+  content: [
+    "**/*.html",
     "**/*.css"
-],
+  ],
   theme: {
     /* For Letter size */
     screens: {
@@ -21,16 +21,16 @@ module.exports = {
         jost: ["Jost", ...defaultTheme.fontFamily.sans],
       },
       fontSize: {
-        sm2: "0.69rem", // 15px label
-        sm: "0.7rem",
-        base: "0.75rem", // 16px base
-        md: "1.0625rem", // 17px body
-        lg: "1.125rem", // 18px heading
-        xl: "1.25rem",
-        "2xl": "1.5rem",
-        "3xl": "1.85rem",
-        "4xl": "2.25rem",
-        "5xl": "2.65rem",
+        sm2: "0.79rem", // 15px label
+        sm: "0.8rem",
+        base: "0.85rem", // 16px base
+        md: "1.1625rem", // 17px body
+        lg: "1.225rem", // 18px heading
+        xl: "1.35rem",
+        "2xl": "1.6rem",
+        "3xl": "1.95rem",
+        "4xl": "2.35rem",
+        "5xl": "2.75rem",
       },
       lineHeight: {
         snugish: "1.35",
