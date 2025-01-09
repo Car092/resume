@@ -57,6 +57,23 @@ body {
     justify-content: space-between;
 }
 
+@media screen and (max-width: 800px) {
+    .bar {
+        display: none;
+    }
+
+    .main-info-wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .education {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
 @media print {
     @page {
         size: auto;
