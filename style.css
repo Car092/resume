@@ -1,0 +1,109 @@
+body {
+    width: 90%;
+    margin: auto;
+    max-width: 675px;
+}
+
+.col-container {
+    display: flex;
+}
+
+.main-info-wrapper {
+    display: flex
+}
+
+.summary {
+    color: rgb(78, 78, 78);
+}
+
+.header {
+    color: rgb(117, 117, 117);
+}
+
+.daterange {
+    color: rgb(78, 78, 78);
+    font-size: 14px;
+}
+
+.job {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.skills {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.skills div {
+    background-color: #ececec;
+    border: 1px grey;
+    padding: 3px;
+    border-style: dotted;
+}
+
+.v-space {
+    display: block;
+    height: 10px;
+}
+
+.education .daterange {
+    margin-left: 10px;
+}
+
+.education {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 800px) {
+    .bar {
+        display: none;
+    }
+
+    .main-info-wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .education {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media print {
+    @page {
+        size: auto;
+        margin: 0mm;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    body {
+        font-size: 14px;
+        width: 100%;
+        max-width: none;
+    }
+
+    h3,
+    .header {
+        text-align: center;
+    }
+
+    .main-info-wrapper {
+        justify-content: center;
+    }
+
+    .skills {
+        gap: 5px;
+        font-weight: 700;
+    }
+
+    .education .daterange {
+        font-size: 13px;
+    }
+
+}
