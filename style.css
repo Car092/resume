@@ -1,3 +1,12 @@
+title,
+body {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
 body {
     width: 90%;
     margin: auto;
@@ -78,13 +87,13 @@ body {
     @page {
         size: auto;
         margin: 0mm;
-        margin-left: 40px;
-        margin-right: 40px;
+        margin-left: 80px;
+        margin-right: 80px;
     }
 
     body {
         font-size: 14px;
-        width: 100%;
+        width: 95%;
         max-width: none;
     }
 
