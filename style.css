@@ -196,6 +196,7 @@ ul li::before {
     .main-info-wrapper {
         gap: 6px;
         margin-bottom: 15px;
+        flex-wrap: wrap;
     }
 
     .education {
